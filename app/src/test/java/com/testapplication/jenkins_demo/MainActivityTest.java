@@ -39,7 +39,7 @@ public class MainActivityTest {
 
     @Test
     public void sampleTestWithValidUsername() {
-        when(view.getUserName()).thenReturn("saga");
+        when(view.getUserName()).thenReturn("sagar");
 
         presenter.validateUserName();
 
